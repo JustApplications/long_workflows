@@ -32,12 +32,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\..\packages\Castle.Core.2.5.2\lib\NET35\Castle.Core.dll</HintPath>
+      <HintPath>..\..\packages\Castle.Core.3.2.0\lib\net40-client\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Reactive">
-      <HintPath>..\..\packages\Rx-Main.1.0.10621\lib\Net4\System.Reactive.dll</HintPath>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\packages\Rx-Core.2.1.30214.0\lib\Net40\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\packages\Rx-Interfaces.2.1.30214.0\lib\Net40\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\packages\Rx-Linq.2.1.30214.0\lib\Net40\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\..\packages\Rx-PlatformServices.2.1.30214.0\lib\Net40\System.Reactive.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.CSharp" />
